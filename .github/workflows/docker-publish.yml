@@ -25,7 +25,7 @@ env:
 jobs:
   # 添加 integration job
   integration:
-    uses: kanxiaoxi/container_image_pipeline_integration/.github/workflows/.github/workflows/python-app.yml@main
+    uses: kanxiaoxi/container_image_pipeline_integration/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write
